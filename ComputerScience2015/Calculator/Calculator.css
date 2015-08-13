@@ -1,0 +1,28 @@
+body{
+    font-family:arial;
+    background-image: url("http://www.psdgraphics.com/file/colorful-triangles-background.jpg");
+    background-size: 100%;
+    color:white;
+}
+h1{
+    text-align:center;
+    font-size:3em;
+}
+
+div{
+    
+    font-size:2em;
+    text-align:center;
+}
+
+select{
+    height:2em;
+    border-radius:33px;
+    text-align:center;
+}
+
+
+#Answer{
+    text-decoration: underline;
+    font-weight: bold;
+}

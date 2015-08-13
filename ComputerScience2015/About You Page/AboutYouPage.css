@@ -1,0 +1,58 @@
+body{
+    
+    text-align:left;
+    background:url("http://www.hardcoregamer.com/wp-content/uploads/2014/03/BAK_Sshot058.jpg");
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+div{
+    border-radius:5px;
+    background-color:black;
+    height:100px;
+    width:1300px;
+    border:6px solid #FFFFFF;
+}
+
+.div2{
+    border-radius:5px;
+    background-color:black;
+    height:150px;
+    width:300px;
+    border:6px solid #FFFFFF;
+}
+
+.div3{
+    border-radius:5px;
+    background-color:black;
+    height:450px;
+    width:450px;
+    border:6px solid #FFFFFF;
+}
+
+
+
+.snowbord{
+    border-radius:5px;
+    background-color:black;
+    height:100px;
+    width:450px;
+    border:6px solid #FFFFFF;
+}
+
+
+.list{
+    color: white;
+    font-size:20px;
+    font-family: Arial;
+}
+
+
+.games{
+    color:white;
+    font-size:20;
+    font-family:Arial;
+}
+

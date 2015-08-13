@@ -1,0 +1,132 @@
+<html>
+
+<head>
+    <title>Audio</title>
+    <script src='audio.js'></script>
+    <link rel="stylesheet" type="text/css" href="audio.css">
+</head>
+
+<body>
+<script></script>
+    
+    <h1><a href = "../Index/index.html">Music Board</a></h1> 
+
+    <div>
+
+
+        <!--First set of music-->
+
+        <!--Audio Tag -->
+        <audio id="song1">
+            <source src="Passion_Pit-Carried_Away.mp3">
+        </audio>
+
+
+        <!--Title of song-->
+        <h2 class="songtitle">Passion Pit- Carried Away</h2>
+
+        <!--Buttons -->
+
+        <div class="outer1">
+            <div class="play1 inner" onclick = "document.getElementById('song1').play(); document.getElementById('song1').loop = true;">
+                <br>
+                <br>
+                <p style="color:#black">Play</p>
+            </div>
+        </div>
+        <div class="outer1">
+            <div class="pause1 inner" onclick="document.getElementById('song1').pause()">
+                <br>
+                <br>
+                <p style="color:#black">Pause</p>
+            </div>
+        </div>
+        <div class="outer1">
+            <div class="stop1 inner" onclick="document.getElementById('song1').pause(); document.getElementById('song1').currentTime = 0;">
+                <br>
+                <br>
+                <p style="color:#black">Stop</p>
+            </div>
+        </div>
+
+
+
+
+
+        <!--Second set of music-->
+        <!--Audio Tag -->
+        <audio id="song2">
+            <source src="Ellie Golding- Love Me Like You Do.mp3">
+        </audio>
+
+
+        <!--Title of song-->
+        <h2 class="songtitle">Ellie Goulding- Love Me Like You Do</h2>
+
+        <div class="outer2">
+
+            <div class="play2 inner" onclick="document.getElementById('song2').play(); document.getElementById('song2').loop = true;">
+                <br>
+                <br>
+                <p style="color:#72f2f2">Play</p>
+            </div>
+        </div>
+
+
+        <div class="outer2">
+            <div class="pause2 inner" onclick="document.getElementById('song2').pause()">
+                <br>
+                <br>
+                <p style="color:#72f2f2">Pause</p>
+            </div>
+        </div>
+        <!--Buttons -->
+        <div class="outer2">
+            <div class="stop2 inner" onclick="document.getElementById('song2').pause(); document.getElementById('song2').currentTime = 0;">
+                <br>
+                <br>
+                <p style="color:#72f2f2">Stop</p>
+            </div>
+        </div>
+
+
+        <!--Third set of music-->
+        <!--Audio Tag -->
+        <audio id="song3">
+            <source src="Volant-Minty.mp3">
+        </audio>
+
+
+        <!--Title of song-->
+        <h2 class="songtitle">Volant- Minty</h2>
+
+        <div class="outer3">
+
+            <div class="play3 inner" onclick="document.getElementById('song3').play(); document.getElementById('song3').loop = true;">
+                <br>
+                <br>
+                <p style="color:#72f2f2; background-color:black">Play</p>
+            </div>
+        </div>
+
+
+        <div class="outer3">
+            <div class="pause3 inner" onclick="document.getElementById('song3').pause()">
+                <br>
+                <br>
+                <p style="color:#72f2f2; background-color:black">Pause</p>
+            </div>
+        </div>
+        <!--Buttons -->
+        <div class="outer3">
+            <div class="stop3 inner" onclick="document.getElementById('song3').pause(); document.getElementById('song3').currentTime = 0;">
+                <br>
+                <br>
+                <p style="color:#72f2f2; background-color:black">Stop</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

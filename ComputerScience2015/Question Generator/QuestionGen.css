@@ -1,0 +1,37 @@
+body{
+    font-family:arial;
+    background-image:url("http://i.imgur.com/GWSwXGv.jpg");
+}
+
+h1{
+    text-align:center;
+    color:white;
+}
+
+#everything {
+    text-align:center;
+    font-size:1.5em;
+}
+#Question {
+    font-size:1em;
+    color:white;
+}
+
+
+#MainButton{
+    border-radius: 25px;
+    background: #457585;
+    border:solid black 3px;
+    text-align:center;
+    margin-right:40%;
+    margin-left:40%;
+}
+
+#MainButton:hover{
+    background-color:black;  
+    color: #457585;
+    transition: color .5s;
+    transition: background-color 1s;
+    transform:scale(1.1);
+}
+

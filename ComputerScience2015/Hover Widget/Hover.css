@@ -1,0 +1,21 @@
+.background{
+    margin-top:15%;
+    background-color:red;
+    margin-left:25%;
+    width:50%;
+    height:300px;
+    text-align:center;
+    border-radius:30px;
+    border:2px solid black;
+}
+
+.text{
+    display:none;
+    text-align:center;
+}
+
+.background:hover .text{
+    padding-top: 8em;
+    display:block;
+    transition: all 3s ease;
+}

@@ -1,0 +1,126 @@
+/* Main Tags */
+body{
+    overflow:hidden;
+    font-family: sans-serif;
+    text-align:center;
+    background-image:url("http://4vector.com/i/free-vector-brilliant-neon-color-background-image-08-vector_015974_8.jpg");
+    background-size:100%;
+}
+
+a{
+    color:white;
+    margin-bottom:1%;
+    transition: 2s all ease;
+    text-decoration: underline;
+    transition-timing-function: linear;
+}
+
+h2{
+    color:white;
+}
+
+h1{
+    text-align:center;
+}
+
+h1:hover{
+    color:blue;
+}
+
+div{
+    float:left;
+    margin-bottom:1%;
+    text-align: center;
+/*Change this for laptop and chromebook. 
+    Chromebook: 35%  
+    laptop: 37.5%*/
+    margin-left:35%;
+    display:inline;
+}
+
+
+p{
+    text-align: center;
+    font-family:sans-serif;
+    color:black;
+    transition-timing-function: linear;
+}
+
+p:hover{
+    color: black;
+    font-size: 1.250em;
+    transition: all 0.5s ease;
+}
+
+/* These are the classes */
+.songtitle{
+    text-decoration:bold;
+    font-size: 0.938em;
+    font-family: arial;
+    margin-bottom:1.250em;
+}
+/*HELP ME WITH THIS PLEASE: I cannot find a way to position this centered.*/
+
+
+/* Outer and inner create the diamond shape.*/
+/* We need different classes for the outer layers because each border is a different color.*/
+.outer1{
+    text-align:center;
+    width: 5em;
+    height: 5em;
+    margin: 1.563em;
+    transform: rotate(45deg);
+    overflow: hidden;
+    border: 0.125em solid #BE5F7C;
+    margin-bottom:15%;
+}
+
+.outer2{
+    text-align:center;
+    width: 5em;
+    height: 5em;
+    margin: 1.563em;
+    transform: rotate(45deg);
+    overflow: hidden;
+    border: 0.125em solid #72F2F2;
+    margin-bottom:15%;
+}
+
+.outer3{
+    text-align:center;
+    width: 5em;
+    height: 5em;
+    margin: 1.563em;
+    transform: rotate(45deg);
+    overflow: hidden;
+    border: 0.125em solid #00D830;
+    margin-bottom:15%;
+}
+
+.inner{
+    text-align:center;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 7.813em;
+    height: 7.813em;
+    margin: -1.563em;
+    transform: rotate(-45deg);
+}
+
+/* Buttons */
+
+/*All images are 125px by 125px*/
+.play1, .pause1, .stop1{
+    background:url("http://i.imgur.com/WMmDmLe.jpg");
+}
+
+
+.play2, .pause2, .stop2{
+    background:url("http://i.imgur.com/Sj0jLOB.jpg");
+}
+
+
+.play3, .pause3, .stop3{
+    background:url("http://i.imgur.com/db1rvh4.jpg");
+}
+

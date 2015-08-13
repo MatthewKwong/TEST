@@ -1,0 +1,47 @@
+
+div {
+    border:6px solid #FFFFFF;
+    background-color: #2D283A;
+    border-radius: 10;
+    float:left;
+    padding: 15;
+    font-family:Arial;
+    font-size:20;
+    height:430;
+    width:1000;
+}
+
+
+h2 {
+    font-family:Verdana;
+    color: #F7FF73;
+    clear:both;
+}
+
+body {
+    background:url("http://cdn.wall-pix.net/albums/art-abstract/00004327.jpg");
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-color: #070311;
+    color: white;
+    padding:20;
+    text-align: justify;
+}
+
+.header{
+    height:60px;
+    margin-left: 30px;
+    text-align:center;
+    }
+
+
+p:first-letter {
+  display:block;
+  float:left;
+  font-family:Georgia;
+  font-size: 250%;
+  font-weight: bold;
+  line-height: 90%;
+}

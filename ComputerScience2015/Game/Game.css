@@ -1,0 +1,28 @@
+
+.positioning{
+    margin-left:35%;
+    margin-right:20%;
+}
+
+#title{
+    margin-left:35%;
+}
+
+img{
+    text-align:center;
+}
+
+table {
+    background-image: url(http://i.imgur.com/12VLjDx.png)
+}
+
+td {
+    width:25px;
+    height:28px;
+    text-align:center;
+}
+ Button{
+width: 438px;
+}
+
+/*Coin: http://i.imgur.com/R6ikFuG.png*/

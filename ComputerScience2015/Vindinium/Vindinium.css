@@ -1,0 +1,109 @@
+body{
+    background-image:url("http://i.imgur.com/FXt60pv.jpg");
+    background-size:100%;
+    font-family:'arial';
+}
+
+a{
+    color:white;    
+}
+
+img{
+    padding-right:.2em;
+    padding-left:.2em;
+}
+
+h1{
+    padding-top:.6em;
+    padding-bottom:.6em;
+    margin:auto;
+    background-color:#B7BDC1;
+    border:solid black 2px;
+    border-radius: 30px;
+    width:360px;
+    color:#FFFFFF;
+    text-align:center;
+}
+
+
+a:visited{
+    color:#FFFFFF;
+}
+
+.button{
+    margin-top:1em;
+    background-color:#B7BDC1;
+    margin:auto;
+    text-align:center;
+    border: solid black 1px;   
+    border-radius: 8px;
+    width: 13em;
+    box-shadow:0px 3px 12px 0px #bcbcbc, inset 0 0 3px #ffffff;
+    -webkit-animation: changeColor 1s infinite;
+}
+
+@-webkit-keyframes changeColor {
+  0% {background-color: white;}
+  50% {background-color: yellow;}
+  100% {background-color: white;}
+}
+
+.basic{
+    margin-top:2em;
+    text-align:center;
+    background-color:#B7BDC1;
+    border: solid black 1px;   
+    border-radius: 8px;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.buttons{
+    text-align:center;
+}
+
+#display{
+    background-color:#B7BDC1;
+    margin-top:2em;
+    margin-bottom:2em;
+    text-align:center;
+    margin-left:15%;
+    margin-right:15%;
+    border: black 1px solid;
+    border-radius: 8px;
+}
+
+.code{   
+    background-color:#B7BDC1;
+    margin-left:15%;
+    margin-right:15%;
+    border: black 1px solid;
+    border-radius: 4px;
+    overflow:scroll;
+    height:400px;
+    margin-bottom:1em;
+}
+
+.code:hover{
+    border: black 3px solid;
+    background-color:white;
+    transition: all 3s ease;
+    transform: scale(1.1);
+
+}
+
+
+.mines, .taverns, .attack{
+    padding-top:1em;
+    background-color:#B7BDC1;
+    margin-left:15%;
+    margin-right:15%;
+    border: black 1px solid;
+    border-radius: 4px;
+    height:150px;
+    margin-bottom:1em;
+}
+
+.minesText, .tavernsText, .attackText{
+    text-align:center;
+}

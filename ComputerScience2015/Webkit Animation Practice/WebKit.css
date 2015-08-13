@@ -1,0 +1,66 @@
+.RYU{
+  border:2px solid black;
+  height:190px;
+  width: 800px;
+  background-image: url("http://i.imgur.com/4003cn5.gif");
+  background-repeat: no-repeat;
+  padding-top:140px;
+}
+
+img{
+      position:relative;
+    -webkit-animation: theanimationname 15s infinite;0;
+ ;
+}
+
+
+        @-webkit-keyframes theanimationname {
+          0% {left:0px; top:30px;}
+          50%{left:550px; top:30px; transform: 1s rotateY(180deg);}
+          100% {left:0px; top:30px;}
+        }
+
+/*Example 1*/
+.example1{
+  color: red;
+  font-size: 20px;
+  transition: 2s all ease;
+}
+
+.example1:hover{
+  color: blue;
+  font-size: 40px;
+}
+
+
+@-webkit-keyframes changeColor {
+  0% {background-color: yellow;}
+  50% {background-color: red;}
+  100% {background-color: yellow;}
+}
+
+.example1{
+	-webkit-animation: changeColor 2s infinite;
+}
+
+/*Example 2*/
+.example2{
+  color: orange;
+  font-size: 20px;
+  transition: 2s all ease;
+}
+
+.example2:hover{
+  color: black;
+  font-size: 40px;
+}
+
+@keyframes changeColor2 {
+  0% {background-color: blue;}
+  50% {background-color: green;}
+  100% {background-color: blue;}
+}
+
+.example2{
+	animation: changeColor2 2s infinite;
+}

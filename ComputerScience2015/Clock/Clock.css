@@ -1,0 +1,122 @@
+body{
+  background-color: #212121
+
+}
+
+.outline{
+    width:460px;
+    height:460px;
+    border-radius:460px;
+    background:#000;
+    background-color:#31CCFF;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.inner{
+    width:450px;
+    height:450px;
+    border-radius:450px;
+    background:black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.dial{
+    width:40px;
+    height:40px;
+    border-radius:40px;
+    background-color: #424242;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.minutes{
+    width: 0.188em;
+    height: 12.500em;
+    background-color: gray;
+    position: fixed;
+    top: 18.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(180deg);
+    transform-origin:bottom;
+}
+
+.seconds{
+    width: 0.188em;
+    height: 12.500em;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 18.5%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    transform: rotate(180deg);
+    transform-origin:bottom;
+}
+.hours{
+    width: 0.188em;
+    height: 7.813em;
+    background-color: #31CCFF;
+    position: fixed;
+    top: 30.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(180deg);
+    transform-origin:bottom;
+}
+
+.Zero{
+    width: 0.188em;
+    height: 7.813em;
+    background-color: #31CCFF;
+    position: fixed;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(0deg);
+    transform-origin:bottom;
+}
+
+
+.Three{
+    width: 7.813em;
+    height: 0.188em;
+    background-color: #31CCFF;
+    position: fixed;
+    top: 50%;
+    left: 57.5%;
+    transform: rotate(90);
+    transform-origin:bottom;
+}
+
+.Six{
+    width: 0.188em;
+    height: 7.813em;
+    background-color: #31CCFF;
+    position: fixed;
+    top: 46.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(180deg);
+    transform-origin:bottom;
+}
+
+.Nine{
+    width: 7.813em;
+    height: 0.188em;
+    background-color: #31CCFF;
+    position: fixed;
+    top: 50%;
+    right: 57.5%;
+    transform: rotate(270);
+    transform-origin:bottom;
+}

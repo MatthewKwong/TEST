@@ -1,0 +1,69 @@
+
+body {
+    background-color: #070311;
+    color: white;
+    padding:20px;
+    text-align: justify;
+}
+
+div {
+    border:6px solid #F1FF26;
+    border-radius: 10px;
+    padding: 15px;
+    text-align:center;
+
+}
+
+h2 {
+    font-family:Arial;
+    color: #F7FF73;
+    clear:both;
+}
+/*______________________Header___________________*/
+.header{
+    width:400px;
+    height:60px;
+    background-color:#2D283A;
+    border-radius: 10px;
+}
+
+/*____________________Introduction_________________________*/
+
+.first {
+	height: 110px;
+	width:1000px;
+	background-color: #2D283A;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+
+/*__________________Purpose_____________________*/
+.second {
+	height: 120px;
+	width: 1000px;
+	background-color: #2D283A;
+	float: left;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+/*_________________Overview________________________*/
+
+.third{
+    height: 70px;
+	width: 1000px;
+	background-color: #2D283A;
+	float: left;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+
+/*________________Pictures________________________________*/
+.images{
+    height:270px;
+    width:1000px;
+    background-color:#FFFFFF;
+    margin-bottom: 10px;
+	border-radius: 10px;
+}

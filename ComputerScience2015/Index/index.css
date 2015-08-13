@@ -1,0 +1,73 @@
+body {
+    background: url("http://i.imgur.com/Iu5VpYY.jpg");
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    color: white;
+    padding:20;
+    text-align: justify;
+
+}
+
+#footer {
+    text-align:center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding:9px;
+}
+
+div{
+    width:1100px;
+    background-color:#111112;
+    color:white;
+    margin:0 auto;
+    margin-top:20px;
+    border:#708FA3 4px solid;
+    border-radius: 20px;
+    padding:8px;
+    font-size:10px;
+    text-align:center;
+}
+
+a{
+    color:white;
+}
+
+a:hover{
+    transition: color .5s;
+    transition: background-color 10s;
+    background-color:black;
+    color:#FFFFFF;
+}
+
+.button {
+    font-size:16px;
+    border: #708FA3  4px solid;
+    color:#00B2B2;
+    background-color:black;
+    padding: 5px;
+    margin: 9px;
+    position:relative;
+    top:25%;
+    left:1%;
+    border-radius:6px;
+    transition: all 0.4s ease;
+}
+
+.button:hover {
+    background-color:#123752;
+    color:black;
+  -webkit-transform: scale(1.2);
+}
+
+
+/* ___________Color_Changing_For_Divs__________ */
+
+.addon:hover {
+    transition: color .5s;
+    transition: background-color 1s;
+    background-color:black;
+    color:#00B2B2;
+}
