@@ -1,0 +1,122 @@
+/*All images are here:     http://imgur.com/a/D7UVW       */
+
+/*Background*/
+html { 
+    background: url("http://i.imgur.com/kziAoNv.gif") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+body{    
+    font-family:trebuchet ms;
+    background-size:100%;
+    background-repeat:none;
+    padding:0;
+    margin: 0;
+    overflow:hidden; 
+}
+
+
+/*Navbar*/
+#nav{
+    font-size:20px;
+    background-color: #222;
+    margin-bottom:4%;
+}
+
+#nav_wrapper{
+    margin: 0 auto;
+    text-align: left;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position:relative;
+}
+
+#nav ul li{
+    display: inline-block;
+}
+
+#nav ul li:hover{
+    background-color: #333;
+}
+
+#nav ul li a,visited{
+    color: #ccc;
+    display:block;
+    padding: 15px;
+    text-decoration:none;
+}
+
+#nav ul li a: hover{
+    color:#ccc;
+    text-decoration:none;
+}
+
+#nav ul li:hover ul{
+    display: block;
+}
+
+#nav ul ul{
+    /*This changes the list font size*/
+    font-size:.8em;
+    display:none;
+    position: absolute;
+    background-color: #333;
+    min-width: 150px;
+}
+
+#nav ul ul li{
+    display: block;
+}
+
+#nav ul ul li a, visited{
+    color: #ccc;
+}
+
+#nav ul ul li a:hover{
+    color: #099;
+}
+
+h1{ 
+    color:white;
+    font-size:3em;
+    text-align:center;
+}
+
+#text{
+    font-size:1.5em;
+    color:white;
+    margin-left:15%;
+    width:75%;
+}
+
+h2{
+    color:white;
+    font-size:2em;    
+}
+
+#button{
+    text-align:center;
+    color:black;
+    font-size:2em;
+    border-radius:50px;
+    height:2em;
+    border:solid black 1px;
+    margin-left:40%;
+    font-size:center;
+    width:20%;
+}
+
+#button:hover{
+    box-shadow:0px 3px 12px 0px #bcbcbc, inset 0 0 3px #ffffff;
+    transition: all 1s ease;
+}
+
+#outline{
+    height:100%;
+    background-color:rgba(0,0,4,.6);
+}
+
