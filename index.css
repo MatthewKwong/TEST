@@ -1,44 +1,26 @@
- body{
-    font-family:arial;
-    background-color:#6cbec9;
-/*     background-image:url("http://i.imgur.com/vlK8pDo.jpg"); */
+/*All images are here:     http://imgur.com/a/D7UVW       */
+
+/*Background*/
+html { 
+    background: url("http://static1.squarespace.com/static/51c748abe4b0c275d0aa86bf/t/56144371e4b058fdf1548e0f/1444168616575/tumblr_nvfz0iKrVw1qzcq51o1_540.gif") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+body{    
+    font-family:trebuchet ms;
     background-size:100%;
     background-repeat:none;
     padding:0;
     margin: 0;
-    overflow-y:scroll;
- }
-
-/* .logo{
-    margin-left:.5em;
-    width:13%;
-    float:left;
-    transition: .4s all ease;
-    transition-timing-function: linear;
+    overflow:hidden; 
 }
 
-.navbar, .tags{
-    color:white;
-    font-size:1.2em;
-    margin-left:.5em;
-    margin-right:.5em;
-    display:inline-block;
-    padding-left:.5em;
-    padding-right:.5em;
-    float:right;
-}
-
-.tags:hover{
-    color:#b2b2b2;
-    transition: .4s all ease;
-    transition-timing-function: linear;
-}
- */
 
 /*Navbar*/
 #nav{
     font-size:20px;
     background-color: #222;
+    margin-bottom:4%;
 }
 
 #nav_wrapper{
@@ -78,15 +60,12 @@
 }
 
 #nav ul ul{
+    /*This changes the list font size*/
+    font-size:.8em;
     display:none;
     position: absolute;
     background-color: #333;
     min-width: 150px;
-    
-    /*THIS CAN BE DELETED: adds a border to the dropdown*/
-/*     border: 5px solid #222;
-    border-top:0;
-    margin-left: -5px; */
 }
 
 #nav ul ul li{
@@ -101,23 +80,56 @@
     color: #099;
 }
 
-.logo{
-  height:300px;
-  width:300px;
-  border-radius:50%;
-  margin: 0 auto;
-  background-image:url(http://i.imgur.com/TUWx2Bp.jpg);
-  background-size:100%;
-  background-position: center center;
-  bottom:50%;
-  border: 5px solid #eee;
-  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+/*Profile Picture*/
+#logo{
+    height:18.750em;
+    width:18.750em;
+    border-radius:50%;
+    margin: 0 auto;
+    margin-bottom:1%;
+    background-image: url("https://yt3.ggpht.com/-6axEDVasgso/AAAAAAAAAAI/AAAAAAAAAAA/eRAx7sJghcs/s900-c-k-no/photo.jpg");
+    background-size: cover;
+    border: 5px solid #eee;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
 }
 
-
-
-h1{
-    font-size:4em;
+.main{
     text-align:center;
+}
+
+#welcome{
+    margin: auto 0;
+    font-size:3em;
     color:white;
 }
+
+#name{
+    margin: auto 0;
+    margin-top:.5%;
+    font-size:1.3em;
+    color:white;
+}
+
+
+#outline{
+    height:100%;
+    background-color:rgba(0,0,4,.3);
+}
+
+/* 
+#box{
+    padding:10px;
+    position: absolute;
+    left:44%;
+    font-size:2.3em;
+    color:white;
+    margin: auto 0;
+    margin-top:4%;
+    background-color:transparent;
+    border: solid 2px black;
+}
+
+#box:hover{
+    background-color:transparent;
+    border: solid 2px black;
+} */
