@@ -1,5 +1,5 @@
 /*Nav Bar*/
-/*a{
+a{
     font-size:1.3em;
     color: black;
     text-decoration:none;
@@ -10,13 +10,13 @@ ul {
     list-style-type: none;
     margin-top: 2em;
     margin-bottom:2em;
-    padding: 0;
+    padding: 0;   
      transition: .5s all ease;
     transition-timing-function: linear;
 }
 
 
-#index{
+#index{        
     transition: .5s all ease;
     transition-timing-function: linear;
 }
@@ -47,20 +47,20 @@ button {
 button:hover {
     border-color:white;
     background-color:black;
-}*/
+}
 
 /*Other stuff*/
 body{
-        text-align:center;
-        font-family: arial;
+        text-align:center;   
+        font-family: arial;  
         overflow:hidden;
     }
 
     p{
-        font-family: arial;
+        font-family: arial;     
         font-size:1em;
     }
-
+    
     #red , #green , #blue , #yellow, #orange, #purple, #lightBlue, #lightGreen, #lightPurple, #lightPink{
         height:8em;
         width:8em;

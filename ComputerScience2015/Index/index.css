@@ -1,13 +1,12 @@
+html { 
+    background: url("http://i.imgur.com/eWtfMME.png") no-repeat center center fixed; 
+    background-size: cover;
+}
+
 body {
-    background: url("http://i.imgur.com/Iu5VpYY.jpg");
-    background-size:cover;
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
     color: white;
     padding:20;
     text-align: justify;
-
 }
 
 #footer {
@@ -27,7 +26,6 @@ div{
     border:#708FA3 4px solid;
     border-radius: 20px;
     padding:8px;
-    font-size:10px;
     text-align:center;
 }
 
@@ -65,9 +63,3 @@ a:hover{
 
 /* ___________Color_Changing_For_Divs__________ */
 
-.addon:hover {
-    transition: color .5s;
-    transition: background-color 1s;
-    background-color:black;
-    color:#00B2B2;
-}

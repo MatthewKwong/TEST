@@ -1,6 +1,6 @@
 /*Intro Alert*/
-// alert("Click Kwong Enterprises Logo to return to the index");
-//
+alert("Click Kwong Enterprises Logo to return to the index");
+
 
 function Home() {
   document.getElementById("display").innerHTML="<p> Welcome to Kwong Enterprises, here you can find some of the features of the company.  The <b>Home</b> tab brings you here, to the home.  The <b> CEO </b> tab gives you a little information about our founder.  Next the <b> Store </b> tab is where you can purchase some fantabulous items.  The <b> Clients </b> tab is where you can see our most loyal customers. In the <b> Jokes </b> you can hear the corniest jokes ever.  The <b> Music </b> tab is a selection of suggested musical singers/ groups. In the <b> Trailers </b> tab you can watch trailers from up coming movies.</p>";
