@@ -1,0 +1,135 @@
+/*Navbar*/
+#nav{
+    font-size:20px;
+    background-color: #222;
+}
+
+#nav_wrapper{
+    margin: 0 auto;
+    text-align: left;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position:relative;
+}
+
+#nav ul li{
+    display: inline-block;
+}
+
+#nav ul li:hover{
+    background-color: #333;
+}
+
+#nav ul li a,visited{
+    color: #ccc;
+    display:block;
+    padding: 15px;
+    text-decoration:none;
+}
+
+#nav ul li a: hover{
+    color:#ccc;
+    text-decoration:none;
+}
+
+#nav ul li:hover ul{
+    display: block;
+}
+
+#nav ul ul{
+    /*This changes the list font size*/
+    font-size:.8em;
+    display:none;
+    position: absolute;
+    background-color: #333;
+    min-width: 150px;
+}
+
+#nav ul ul li{
+    display: block;
+}
+
+#nav ul ul li a, visited{
+    color: #ccc;
+}
+
+#nav ul ul li a:hover{
+    color: #099;
+}
+
+
+/*Profile Pic
+
+
+
+
+
+
+
+
+
+/*EVERYTHING ELSE*/
+
+html {
+    background:url("http://www.psdgraphics.com/file/green-hexagons-background.png")no-repeat center center fixed;
+    background-size: cover;
+}
+body {
+    font-family:Tahoma;
+    background-size:100%;
+    background-repeat:none;
+    padding:0;
+    margin: 0;
+    overflow:hidden;
+}
+
+h1{
+    font-size: 1em;
+}
+
+#logo2 {
+    height:15em;
+    width:15em;
+    border-radius:50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom:1%;
+    /*     background-image: url("https://d3rt1990lpmkn.cloudfront.net/640/675c42f189d0999f5c517e0a0401740c0c88e520"); */
+    background-size: cover;
+    background-position:center;
+    border: 5px solid #eee;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+/*Buttons*/
+
+/*flips the next button by 180 degrees*/
+ #previous {
+     opacity:0.8;
+    transform: rotate(180deg);
+}
+#next{
+    opacity:0.8;
+}
+
+
+div {
+    text-align:center;
+}
+#border {
+    float:right;
+    margin: 0 auto;
+    height:100%;
+    width:30%;
+    border-left:solid black 2px;
+    background:url("http://www.psdgraphics.com/wp-content/uploads/2014/02/colorful-triangles.jpg")no-repeat center center fixed;
+    background-size:cover;
+}
+img {
+    max-width: 25%;
+    height: auto;
+}

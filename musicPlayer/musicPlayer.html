@@ -1,17 +1,14 @@
 <html>
 
 <head>
-    <script src=" //code.jquery.com/jquery-1.10.2.js"></script>
-    <script src=" //code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <script src='index.js'></script>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <script src="index.js"></script>
-    <title>Matthew Kwong- Home</title>
+    <link rel="stylesheet" type="text/css" href="musicPlayer.css">
+    <script src='musicPlayer.js'></script>
+    <title>Music Player</title>
 </head>
 
 <body>
-    <div id="outline">
-        <div id="nav">
+    <!--Nav Bar-->
+    <div id="nav">
             <div id="nav_wrapper">
                 <ul>
                     <li><a href="index.html">Home</a> 
@@ -44,17 +41,33 @@
             </div>
         </div>
 
+    <!--this div centers everything-->
+    <div id="border">
 
-        <div id="logo"></div>
+        <div id="logo2"></div>
 
-        <div class="main">
-            <h1 id="welcome">Welcome</h1>
-            <p id="name">Made by: Matthew Kwong</p>
-        </div>
+        <h1 id="songTitle">n</h1>
+
+        <!--Audio source link-->
+        <audio id="mine">
+            <source src="mine.mp3">
+        </audio>
+
+
+        <audio id="ignition">
+            <source src="ignition.mp3">
+        </audio>
+
+
+        <audio id="homie">
+            <source src="homie.mp3">
+        </audio>
+
+        <img id="previous" onclick="setTimeout(prevSong,1000)" src="http://image005.flaticon.com/1/svg/109/109193.svg">
+        <img id="playPause" onclick="changeImage()" src="http://image005.flaticon.com/1/svg/109/109197.svg">
+        <img id="next" onclick="setTimeout(nextSong,1000);" src="http://image005.flaticon.com/1/svg/109/109193.svg">
+        <p id="volume" onclick="volume()">HI</p>
     </div>
-
 </body>
 
 </html>
-
-<!--http://imgur.com/a/4iTzl-->
