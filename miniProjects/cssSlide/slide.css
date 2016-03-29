@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+    padding:100px;
+}
+.pictureContainer {
+    width: 270px;
+    height: 300px;
+    overflow: hidden;
+}
+.pictureContainer img {
+    transition: transform .2s ease-in-out;
+}
+.pictureContainer img:hover {
+    transform: translate3d(0px, -300px, 0px);
+}
+
