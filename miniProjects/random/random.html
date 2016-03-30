@@ -1,11 +1,63 @@
+
 <html>
-
 <head>
-    <title>Random</title>
+    <title>Kill</title>
 </head>
-
 <body>
-     <canvas></canvas>
-</body>
+   <style>
+       html, body {
+           overflow: hidden;
+       }
+       body{
+            background-color:"black";
+       }    
+    </style>
+    
+    <canvas id="gameScreen" width="1349x" height="600px">Your game won't work rip.</canvas>
+<canvas id="myCanvas" width="1320" height="600"></canvas>
+<script>
+var gameCanvas = document.getElementById("gameScreen");
+var ctx = gameCanvas.getContext("2d");
+var gameImage = document.getElementById("gameImage");
 
+function paintDrop(){
+    this.x = Math.random()*gameCanvas.width;
+    this.y = 0;
+    this.update = function() {
+        this.y+=25;
+        ctx.beginPath();
+        ctx.rect(this.x,this.y,2,40);
+        ctx.fillStyle = "blue";
+        ctx.fill();
+    }
+}
+
+var paint = [];
+    
+
+function gameLoop() {
+    ctx.clearRect(0, 0, gameScreen.width, gameScreen.height);
+    if(Math.random()*gameScreen.width)paint.push(new paintDrop());
+    for(i = 0; i < paint.length; i++){
+        paint[i].update();
+    }
+    
+    window.requestAnimationFrame(gameLoop);
+
+    ctx.rect(gameCanvas.width/2,-10,40,1200);
+    ctx.fillStyle ="gray";
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.rect(0,gameCanvas.height/2.25,1349,40);
+    ctx.fillStyle ="gray";
+    ctx.fill();
+    ctx.stroke();
+
+}
+
+gameLoop();
+  
+</script>    
+</body>
 </html>

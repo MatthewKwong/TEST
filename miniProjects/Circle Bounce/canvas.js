@@ -37,8 +37,7 @@ function drawCircle() {
   //color circle
   mainContext.fillStyle = "white";
   mainContext.fill();
-  
-  
+    
   
   //draws black circle
   mainContext.beginPath();
@@ -49,7 +48,6 @@ function drawCircle() {
   //color circle
   mainContext.fillStyle = "black";
   mainContext.fill();
-  
   
 
   angle +=Math.PI/63;
