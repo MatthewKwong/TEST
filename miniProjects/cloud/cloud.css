@@ -9,6 +9,20 @@
 .cloud {
     position:absolute;
 }
+
+
+
+#sun{
+    height:18.750em;
+    width:18.750em;
+    border-radius:50%;
+    margin: 0 auto;
+    background-color:orange;
+}
+
+
+
+
 #bigCloud {
     animation: bobble 2s infinite;
     margin-left: 100px;
