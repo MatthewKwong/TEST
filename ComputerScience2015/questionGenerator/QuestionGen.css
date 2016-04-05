@@ -1,37 +1,65 @@
-body{
-    font-family:arial;
-    background-image:url("http://i.imgur.com/GWSwXGv.jpg");
-}
-
-h1{
-    text-align:center;
-    color:white;
-}
-
-#everything {
-    text-align:center;
-    font-size:1.5em;
-}
-#Question {
-    font-size:1em;
-    color:white;
-}
-
-
-#MainButton{
-    border-radius: 25px;
-    background: #457585;
-    border:solid black 3px;
-    text-align:center;
-    margin-right:40%;
-    margin-left:40%;
-}
-
-#MainButton:hover{
-    background-color:black;  
-    color: #457585;
-    transition: color .5s;
-    transition: background-color 1s;
-    transform:scale(1.1);
-}
-
+    /*Navbar*/
+    @media screen and (max-device-width : 30px) {
+    }
+    #nav {
+        font-family:trebuchet ms;
+        text-align:center;
+        background-color: #222;
+        margin-bottom:4%;
+    }
+    #nav_wrapper {
+        margin: 0 auto;
+        text-align: left;
+    }
+    #nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position:relative;
+    }
+    #nav ul li {
+        display: inline-block;
+    }
+    #nav ul li:hover {
+        background-color: #333;
+    }
+    #nav ul li a, visited {
+        color: #ccc;
+        display:block;
+        padding: 15px;
+        text-decoration:none;
+    }
+    /*EVERYTHING ELSE*/
+    body {
+        padding:0;
+        margin: 0;
+        font-family:arial;
+        background-image:url("http://i.imgur.com/GWSwXGv.jpg");
+    }
+    h1 {
+        text-align:center;
+        color:white;
+    }
+    #everything {
+        text-align:center;
+        font-size:1.5em;
+    }
+    #Question {
+        font-size:1em;
+        color:white;
+    }
+    #MainButton {
+        border-radius: 25px;
+        background: #457585;
+        border:solid black 3px;
+        text-align:center;
+        margin-right:40%;
+        margin-left:40%;
+    }
+    #MainButton:hover {
+        background-color:black;
+        color: #457585;
+        transition: color .5s;
+        transition: background-color 1s;
+        transform:scale(1.1);
+    }

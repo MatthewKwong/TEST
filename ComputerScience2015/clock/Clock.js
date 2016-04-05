@@ -41,3 +41,5 @@ function update(){
 
 window.requestAnimationFrame(update);
 /*The request animation frame is used to have each dial move.  This can be shown from  */
+
+alert("Please restore down the browser window if you're on a larger screen");

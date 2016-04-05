@@ -1,4 +1,40 @@
+    /*Navbar*/
+@media screen and (max-device-width : 30px){
+   }
+#nav {
+        font-family:trebuchet ms;
+        text-align:center;
+        background-color: #222;
+        margin-bottom:4%;
+    }
+
+#nav_wrapper {
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position:relative;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #ccc;
+    display:block;
+    padding: 15px;
+    text-decoration:none;
+}
+/*EVERYTHING ELSE*/
+
 body {
+    padding:0;
+    margin:0;
     background: url("http://i.imgur.com/Okg1j8Q.jpg");
     background-size:cover;
     background-position:center;
@@ -12,7 +48,7 @@ p{
     font-family:arial;
 }
 
-div{
+.div{
     width:800px;
     background-color:#111112;
     color:white;

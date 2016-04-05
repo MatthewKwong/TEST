@@ -16,69 +16,69 @@ body{
 }
 
 
-/*Navbar*/
-#nav{
-    font-size:20px;
-    background-color: #222;
-    margin-bottom:4%;
-}
+    /*Navbar*/
+    #nav{
+        font-size:20px;
+        background-color: #222;
+        margin-bottom:4%;
+    }
 
-#nav_wrapper{
-    margin: 0 auto;
-    text-align: left;
-}
+    #nav_wrapper{
+        margin: 0 auto;
+        text-align: left;
+    }
 
-#nav ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    position:relative;
-}
+    #nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position:relative;
+    }
 
-#nav ul li{
-    display: inline-block;
-}
+    #nav ul li{
+        display: inline-block;
+    }
 
-#nav ul li:hover{
-    background-color: #333;
-}
+    #nav ul li:hover{
+        background-color: #333;
+    }
 
-#nav ul li a,visited{
-    color: #ccc;
-    display:block;
-    padding: 15px;
-    text-decoration:none;
-}
+    #nav ul li a,visited{
+        color: #ccc;
+        display:block;
+        padding: 15px;
+        text-decoration:none;
+    }
 
-#nav ul li a: hover{
-    color:#ccc;
-    text-decoration:none;
-}
+    #nav ul li a: hover{
+        color:#ccc;
+        text-decoration:none;
+    }
 
-#nav ul li:hover ul{
-    display: block;
-}
+    #nav ul li:hover ul{
+        display: block;
+    }
 
-#nav ul ul{
-    /*This changes the list font size*/
-    font-size:.8em;
-    display:none;
-    position: absolute;
-    background-color: #333;
-    min-width: 150px;
-}
+    #nav ul ul{
+        /*This changes the list font size*/
+        font-size:.8em;
+        display:none;
+        position: absolute;
+        background-color: #333;
+        min-width: 150px;
+    }
 
-#nav ul ul li{
-    display: block;
-}
+    #nav ul ul li{
+        display: block;
+    }
 
-#nav ul ul li a, visited{
-    color: #ccc;
-}
+    #nav ul ul li a, visited{
+        color: #ccc;
+    }
 
-#nav ul ul li a:hover{
-    color: #099;
-}
+    #nav ul ul li a:hover{
+        color: #099;
+    }
 
 /*Profile Picture*/
 #logo{

@@ -1,19 +1,51 @@
-body{
+    /*Navbar*/
+@media screen and (max-device-width : 30px){
+   }
+#nav {
+        font-family:trebuchet ms;
+        text-align:center;
+        background-color: #222;
+        margin-bottom:4%;
+    }
+
+#nav_wrapper {
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position:relative;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #ccc;
+    display:block;
+    padding: 15px;
+    text-decoration:none;
+}
+/*EVERYTHING ELSE*/
+ body {
     background-image:url("http://i.imgur.com/FXt60pv.jpg");
     background-size:100%;
     font-family:'arial';
+    padding:0;
+    margin: 0;
 }
-
-a{
-    color:white;    
+a {
+    color:white;
 }
-
-img{
+img {
     padding-right:.2em;
     padding-left:.2em;
 }
-
-h1{
+h1 {
     padding-top:.6em;
     padding-bottom:.6em;
     margin:auto;
@@ -24,45 +56,44 @@ h1{
     color:#FFFFFF;
     text-align:center;
 }
-
-
-a:visited{
+a:visited {
     color:#FFFFFF;
 }
-
-.button{
+.button {
     margin-top:1em;
     background-color:#B7BDC1;
     margin:auto;
     text-align:center;
-    border: solid black 1px;   
+    border: solid black 1px;
     border-radius: 8px;
     width: 13em;
     box-shadow:0px 3px 12px 0px #bcbcbc, inset 0 0 3px #ffffff;
     -webkit-animation: changeColor 1s infinite;
 }
-
 @-webkit-keyframes changeColor {
-  0% {background-color: white;}
-  50% {background-color: yellow;}
-  100% {background-color: white;}
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: white;
+    }
 }
-
-.basic{
+.basic {
     margin-top:2em;
     text-align:center;
     background-color:#B7BDC1;
-    border: solid black 1px;   
+    border: solid black 1px;
     border-radius: 8px;
     margin-left:15%;
     margin-right:15%;
 }
-
-.buttons{
+.buttons {
     text-align:center;
 }
-
-#display{
+#display {
     background-color:#B7BDC1;
     margin-top:2em;
     margin-bottom:2em;
@@ -72,8 +103,7 @@ a:visited{
     border: black 1px solid;
     border-radius: 8px;
 }
-
-.code{   
+.code {
     background-color:#B7BDC1;
     margin-left:15%;
     margin-right:15%;
@@ -83,17 +113,13 @@ a:visited{
     height:400px;
     margin-bottom:1em;
 }
-
-.code:hover{
+.code:hover {
     border: black 3px solid;
     background-color:white;
     transition: all 3s ease;
     transform: scale(1.1);
-
 }
-
-
-.mines, .taverns, .attack{
+.mines, .taverns, .attack {
     padding-top:1em;
     background-color:#B7BDC1;
     margin-left:15%;
@@ -103,7 +129,6 @@ a:visited{
     height:150px;
     margin-bottom:1em;
 }
-
-.minesText, .tavernsText, .attackText{
+.minesText, .tavernsText, .attackText {
     text-align:center;
 }

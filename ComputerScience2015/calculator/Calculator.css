@@ -1,16 +1,54 @@
+    /*Navbar*/
+@media screen and (max-device-width : 30px){
+   }
+#nav {
+        font-family:trebuchet ms;
+        text-align:center;
+        background-color: #222;
+        margin-bottom:4%;
+    }
+
+#nav_wrapper {
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position:relative;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #ccc;
+    display:block;
+    padding: 15px;
+    text-decoration:none;
+}
+/*EVERYTHING ELSE*/
+
+
+
 body{
     font-family:arial;
     background-image: url("http://www.psdgraphics.com/file/colorful-triangles-background.jpg");
     background-size: 100%;
     color:white;
+    padding:0;
+    margin: 0;
 }
+
 h1{
     text-align:center;
     font-size:3em;
 }
 
-div{
-    
+#size{
     font-size:2em;
     text-align:center;
 }
