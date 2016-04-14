@@ -11,6 +11,7 @@ document.onkeydown = checkKey;
 
 function checkKey(e) {
     e = e || window.event;
+    e.preventDefault();
     //up arrow
     //This allows the player to go up to maximum coordinates y, -7
     if(e.keyCode == '38' && playerY != 7) {
