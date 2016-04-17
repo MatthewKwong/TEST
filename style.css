@@ -87,7 +87,9 @@ body{
     border-radius:50%;
     margin: 0 auto;
     margin-bottom:1%;
-    background-image: url("https://yt3.ggpht.com/-6axEDVasgso/AAAAAAAAAAI/AAAAAAAAAAA/eRAx7sJghcs/s900-c-k-no/photo.jpg");
+    background-image: url("IMG_0531.JPG");
+    text-align:center;
+    float:center;
     background-size: cover;
     border: 5px solid #eee;
     box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
