@@ -1,0 +1,76 @@
+body {
+    font-family:arial;
+    background: url("/Birthday/PitOfPassion/pictures/background.png") no-repeat Fixed center -8px #000000;
+}
+
+h1{
+    font-family: font-family:trebuchet ms;
+    text-indent: 150px;
+    color:white;
+}
+
+#outline{
+    width:59.125em;
+    margin: 0 auto;
+}
+
+#logo1 { 
+    height = "10%";
+}
+
+#pitofpassion {
+    display:block;
+    margin:0 auto;
+}
+
+#freshie {
+    height:485px;
+    margin: 0 auto;
+    border:solid 2px white;
+}
+
+/* #smore {
+    width:26.3em;
+    border:solid 2px white;
+}
+ */
+
+#left {
+    text-align:center;
+    width:40%;
+    height:58%;
+    float:left;
+}
+
+#right h2{
+    color:#940C35;
+    text-align:center;
+}
+
+#right{
+    background-color:white;
+    float:right;
+}
+
+#noteoutline{
+    font-size:0.863em;
+    margin-left:10px;
+    margin-right:10px;
+    width:489px;
+}
+
+.signoff{
+    display: block;
+    line-height: 0.1;
+    content: " ";
+}
+
+a{
+    color:#940C35;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#E95569;
+    text-decoration:none;
+}
