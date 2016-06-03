@@ -1,23 +1,24 @@
-#mainContent {
+body{
     background-color:#A2bfce;
-    border-radius: 4px;
-    padding: 10px;
-    width: 600px;
-    height:300px;
-    overflow:hidden;
 }
-.cloud {
-    position:absolute;
-}
-
-
 
 #sun{
-    height:18.750em;
-    width:18.750em;
+    top:20%;
+    left:40%;
+    position:absolute;
+    height:18em;
+    width:18em;
     border-radius:50%;
     margin: 0 auto;
     background-color:orange;
+    animation: shine 10s infinite;
+}
+
+@keyframes shine{
+    50%{
+     background-color:yellow;
+    height:19em;
+    }
 }
 
 
