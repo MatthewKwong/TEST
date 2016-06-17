@@ -1,0 +1,110 @@
+body {
+    overflow:hidden;
+}
+.outline {
+    background-size:100%;
+    width:100%;
+    position:relative;
+    margin:0;
+}
+* {
+    margin:-2;
+    padding:-2px;
+}
+.wrapper {
+    margin:0;
+    display:inline-block;
+}
+.one {
+    width: 110px;
+    height: 110px;
+    position: relative;
+    animation: one 2s infinite alternate;
+}
+@keyframes one {
+    0% {
+        background-color:black;
+    }
+    25% {
+        background-color:white;
+    }
+    50% {
+        background-color:black;
+    }
+    75% {
+        background-color:white;
+    }
+    100% {
+        background-color:black;
+    }
+}
+.two {
+    width: 110px;
+    height: 110px;
+    position: relative;
+    animation: two  infinite alternate;
+}
+@keyframes two {
+    0% {
+        background-color:white;
+    }
+    25% {
+        background-color:black;
+    }
+    50% {
+        background-color:white;
+    }
+    75% {
+        background-color:black;
+    }
+    100% {
+        background-color:white;
+    }
+}
+/*MONEY SWAG LKDSFJLSDLKJFKJSLDFJKLDSJLK:FKJLDSF*/
+ .three {
+    width: 110px;
+    height: 110px;
+    position: relative;
+    animation: three 2s infinite alternate;
+}
+@keyframes four {
+    0% {
+        background-color:black;
+    }
+    25% {
+        background-color:white;
+    }
+    50% {
+        background-color:black;
+    }
+    75% {
+        background-color:white;
+    }
+    100% {
+        background-color:black;
+    }
+}
+.four {
+    width: 110px;
+    height: 110px;
+    position: relative;
+    animation: four  infinite alternate;
+}
+@keyframes three {
+    0% {
+        background-color:white;
+    }
+    25% {
+        background-color:black;
+    }
+    50% {
+        background-color:white;
+    }
+    75% {
+        background-color:black;
+    }
+    100% {
+        background-color:white;
+    }
+}
