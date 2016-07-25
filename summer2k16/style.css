@@ -57,7 +57,6 @@ body {
     background: -moz-linear-gradient(#86B3EA, #7F7E7E);
     background: linear-gradient(#86B3EA, #7F7E7E);
     /*creating the separation of divs (left and right)*/
-    border:dashed white 2px;
 }
 
 #left-and-right {
@@ -72,7 +71,6 @@ body {
 /*The two separate sections*/
  #left {
     padding-left:20px;
-    border:dashed white 2px;
     display: inline-block;
     width:50%;
     float:left;
@@ -94,7 +92,6 @@ body {
 #right {
     flex:1;
     padding-left:20px;
-    border:dashed white 2px;
 }
 
 /*Computer Science and Genius Project Wrapper*/
