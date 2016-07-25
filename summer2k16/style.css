@@ -1,0 +1,178 @@
+body {
+    margin: 0 auto;
+    background:url("wallpaper.jpg")no-repeat fixed;
+    background-size: cover;
+    background-size:112%;
+}
+
+#banner {
+    background-color:rgba(0, 0, 4, .3);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    /*distance from the nav bar-- make sure that the #nav top and the #banner top are the same sizes*/
+    top: 60px;
+    /*   background:url("http://i.imgur.com/e80hza4.jpg")no-repeat center center fixed;
+  background-size: cover;
+  background-size:100%;
+  background-repeat:none; */
+    padding:0;
+}
+
+#name {
+    margin-top:4%;
+    color:white;
+    /*     font-family:Prompt;
+ */
+    font-family:trebuchet ms;
+    text-align:center;
+}
+#logo {
+    height:24em;
+    width:24em;
+    border-radius:50%;
+    margin: 0 auto;
+    margin-top:2%;
+    background-image: url("../profilePicture.JPG");
+    text-align:center;
+    float:center;
+    background-size: cover;
+    border: 5px solid #eee;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+#content {
+    width: 100%;
+    position: relative;
+    top: 1000px;
+}
+#continue {
+    height:5%;
+    background-color:black;
+}
+#about-me {
+    /*  margin-top:135px;    */
+    margin-top:-20px;
+    background: -webkit-linear-gradient(#86B3EA, #7F7E7E);
+    background: -o-linear-gradient(#86B3EA, #7F7E7E);
+    background: -moz-linear-gradient(#86B3EA, #7F7E7E);
+    background: linear-gradient(#86B3EA, #7F7E7E);
+    /*creating the separation of divs (left and right)*/
+    border:dashed white 2px;
+}
+
+#left-and-right {
+    display:flex;
+}
+
+#project-images{
+    display:flex;
+    margin-bottom:40%;
+}
+
+/*The two separate sections*/
+ #left {
+    padding-left:20px;
+    border:dashed white 2px;
+    display: inline-block;
+    width:50%;
+    float:left;
+}
+
+#left h1{ 
+    font-size:40px;
+}
+
+#left p{
+    margin-bottom:100px;
+    font-size:20px;
+}
+
+#past-projects p{
+    margin-bottom:20px;
+}
+
+#right {
+    flex:1;
+    padding-left:20px;
+    border:dashed white 2px;
+}
+
+/*Computer Science and Genius Project Wrapper*/
+.left-and-right {
+    display:flex;
+}
+#spacer{
+    width:30px;
+}
+
+/*to make sure the photos are mobile responsive*/
+/*Computer Science*/
+ #computerScienceWrap {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    text-align:center;
+    position:relative;
+}
+#computerScience2015Picture {
+    height:300px;
+    width:300px;
+}
+#computerScienceDescription {
+    text-align:center;
+    left:0;
+    bottom:0;
+    top:0;
+    right:0;
+    position:absolute;
+    visibility:hidden;
+    transition: all 1s ease;
+    height:300px;
+    width:300px;
+    color:white;
+    font-size:20px;
+    font-family:arial;
+    opacity: 0;
+}
+#computerScienceWrap:hover #computerScienceDescription {
+    transition: all 1s ease;
+    visibility:visible;
+    background: rgba(0, 0, 0, 0.75);
+    opacity: 1;
+}
+
+/*Genius Project*/
+ #geniusWrap {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    text-align:center;
+    position:relative;
+     float:right;
+}
+#geniusPicture {
+    height:300px;
+    width:px;
+}
+#geniusDescription {
+    text-align:center;
+    left:0;
+    bottom:0;
+    top:0;
+    right:0;
+    position:absolute;
+    visibility:hidden;
+    transition: all 1s ease;
+    height:300px;
+    width:300px;
+    color:white;
+    font-size:20px;
+    font-family:arial;
+    opacity: 0;
+}
+#geniusWrap:hover #geniusDescription {
+    transition: all 1s ease;
+    visibility:visible;
+    background: rgba(0, 0, 0, 0.75);
+    opacity: 1;
+}
